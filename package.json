@@ -1,0 +1,25 @@
+{
+  "name": "devook",
+  "version": "0.1.0",
+  "description": "Leitor de livros (PDF e Word) no terminal, customizável",
+  "type": "module",
+  "bin": { "devook": "dist/cli.js" },
+  "files": ["dist"],
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "build": "tsc",
+    "prepare": "tsc",
+    "test": "node --test"
+  },
+  "repository": { "type": "git", "url": "git+https://github.com/raonych/devook.git" },
+  "keywords": ["cli", "terminal", "ebook", "pdf", "docx", "reader"],
+  "license": "MIT",
+  "dependencies": {
+    "mammoth": "^1.13.0",
+    "unpdf": "^2.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2"
+  }
+}

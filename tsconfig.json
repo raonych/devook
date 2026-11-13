@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es2022",
+    "module": "nodenext",
+    "rootDir": "src",
+    "outDir": "dist",
+    "strict": true,
+    "types": ["node"],
+    "skipLibCheck": true,
+    "erasableSyntaxOnly": true,
+    "rewriteRelativeImportExtensions": true
+  },
+  "include": ["src"]
+}
